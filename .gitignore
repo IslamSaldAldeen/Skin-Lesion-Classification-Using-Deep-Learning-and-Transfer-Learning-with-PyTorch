@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Dataset files - do NOT upload data to GitHub
+data/
+*.zip
+*.rar
+*.7z
+
+# Trained models - usually too large for GitHub
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.joblib
+models/*.pkl
+
+# Outputs / experiment results
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.csv
+outputs/*.json
+outputs/*.txt
+
+# System files
+.DS_Store
+Thumbs.db
